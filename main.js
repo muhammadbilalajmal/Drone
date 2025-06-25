@@ -24,43 +24,43 @@ const scrollRevealOption = {
 };
 
 // header container
-ScrollReveal().reveal(".header__content h1", {
+ScrollReveal().reveal(".header_content h1", {
   ...scrollRevealOption,
 });
 
-ScrollReveal().reveal(".header__content .section__description", {
+ScrollReveal().reveal(".header_content .section_description", {
   ...scrollRevealOption,
   delay: 500,
 });
 
-ScrollReveal().reveal(".header__content .header__btn", {
+ScrollReveal().reveal(".header_content .header_btn", {
   ...scrollRevealOption,
   delay: 1000,
 });
 
 // aabout container
-ScrollReveal().reveal(".about__content .section__header", {
+ScrollReveal().reveal(".about_content .section_header", {
   ...scrollRevealOption,
 });
 
-ScrollReveal().reveal(".about__content .section__description", {
+ScrollReveal().reveal(".about_content .section_description", {
   ...scrollRevealOption,
   delay: 500,
 });
 
-ScrollReveal().reveal(".about__content .about__btn", {
+ScrollReveal().reveal(".about_content .about_btn", {
   ...scrollRevealOption,
   delay: 1000,
 });
 
 // product contaainer
-ScrollReveal().reveal(".product__card", {
+ScrollReveal().reveal(".product_card", {
   ...scrollRevealOption,
   interval: 500,
 });
 
 // article contaainer
-ScrollReveal().reveal(".article__card", {
+ScrollReveal().reveal(".article_card", {
   ...scrollRevealOption,
   interval: 500,
 });
